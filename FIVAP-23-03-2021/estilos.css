@@ -1,0 +1,93 @@
+﻿
+body 
+{
+    margin:0;
+    padding:0;
+    color:#555;
+    line-height:17px;
+    font-family:"calibri";
+    background-color:#fff;
+    background-position:center top;
+    background-repeat:no-repeat;
+    height: 160px;
+}
+
+ body.fondo{
+  background-image: url("Imagenes/fondo-abst.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a, a:link, a:visited
+{
+    color: #990000;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration:underline;
+}
+
+#abrigo_general
+{
+    width: min-content;
+    margin: 40px auto;
+}
+
+#content_login
+{
+    margin-top:100px;
+    overflow: hidden;
+    width:720px;
+    position:relative;
+    padding-bottom: 10px;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+    border: 0; 
+    width: 255px; 
+}
+ 
+#menu span, #menu a {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none; 
+}
+ 
+#menu:after, #menu ul:after {
+    content: '';
+    display: block;
+    clear: both; 
+}
+ 
+#menu a {
+    color: #black;
+    line-height: 160%;
+    padding: 11px 28px 11px 28px;
+    width: 253px; 
+}
+
+#menu .has-sub {
+    position: relative; 
+}
+ 
+#menu .has-sub:after, #menu .has-sub > ul > .has-sub:hover:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 9px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -5px;
+}
+ 
+#menu .fa-angle-right {
+    float: right;
+}

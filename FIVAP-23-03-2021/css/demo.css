@@ -1,0 +1,106 @@
+ /*<!-- credits to Maria Antonietta Perna.We have the rights to use and modify the courousel by her -->*/
+.main-container {
+  padding: 40px 15px;
+}
+.skyblue {
+	background-color: #22c8ff;
+}
+.deepskyblue {
+	background-color: #00bfff;
+}
+.darkerskyblue {
+	background-color: #00a6dd;
+}
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel .item {
+	min-height: 350px; 
+	height: 100%;
+	width:100%; 
+}
+.carousel-caption h3,
+.carousel .icon-container,
+.carousel-caption button {
+	background-color: #3181bb;
+}
+.carousel-caption h3 {
+	padding: .5em;
+}
+.carousel .icon-container {
+	display: inline-block;
+	font-size: 25px;
+	line-height: 25px;
+	padding: 1em;
+	text-align: center;
+	
+	
+}
+.carousel-caption button {
+	
+	margin-top: 1em; 
+}
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.carousel-caption h3:nth-child(2) {
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+}
+.carousel-caption h3:nth-child(3) {
+	-webkit-animation-delay: 3s;
+	animation-delay: 3s;
+}
+.carousel-caption button {
+	-webkit-animation-delay: 3s;
+	animation-delay: 3s;
+}
+.carousel-caption p {
+	-webkit-animation-delay: 3s;
+	animation-delay: 3s;
+}
+#carouselButtons {
+    margin-left: 400px;
+    position: absolute;
+    bottom: 0px;
+}
+.carousel-caption {
+   
+    position: absolute;
+    left: auto;
+    right: auto;
+      text-align: justify;
+      margin-left:50px;
+     
+}
+
+@media (max-width: 992px) {
+  .carousel-caption {
+    position: relative;
+     
+  
+      text-align: center;
+}
+ }
+
+ .carousel .carousel-control { visibility: hidden; }
+.carousel:hover .carousel-control { visibility: visible; }
+@media (min-width: 1000px) {
+    .thirdslide {
+         bottom: 70px;
+        margin-left: 300px;
+    }
+    .firstslide{ bottom: 80px;
+
+    }
+    .secondslide{ bottom: 80px;
+
+    }
+}
